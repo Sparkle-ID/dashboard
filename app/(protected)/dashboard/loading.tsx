@@ -1,6 +1,7 @@
 import React from 'react';  
 import Loader from '@/components/global/loader';
 
+
 type Props = {}
 
 const Loading = (props: Props) => {

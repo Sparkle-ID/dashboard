@@ -99,9 +99,13 @@ export default function Home() {
                 <Link href="#features">Documentation</Link>
                 <Link href="https://github.com/Sparkle-ID">Github</Link>
               </nav>
-              <Button className="bg-white text-primary">
-                <Link href="/dashboard">Dashboard</Link>
-              </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-blue-400  hover:bg-blue-900/50"
+                >
+                  <Link href="/dashboard">Dashboard</Link>
+                </Button>
             </div>
 
             <div className="mx-auto mt-16 max-w-3xl text-center">

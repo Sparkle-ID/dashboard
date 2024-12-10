@@ -9,7 +9,7 @@ type Props = {
     color?: string
 }
 
-const Loader = async ({ children, state, className, color }: Props) => {
+const Loader = ({ children, state, className, color }: Props) => {
     return state ? (
         <div className={cn(className)}>
             <Spinner color={color} />
