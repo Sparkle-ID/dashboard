@@ -96,15 +96,15 @@ export default function Home() {
                 </Link>
               </div>
               <nav className="hidden space-x-6 text-sm text-blue-200 md:block">
-                <Link href="#features">Documentation</Link>
-                <Link href="https://github.com/Sparkle-ID">Github</Link>
+                <Link href="https://docs.google.com/document/d/1GVrZMNklil3qDlZf2qeZHFul2cYrXZsp8XjNC1B8n-k/edit?usp=sharing">Whitepaper</Link>
+                {/* <Link href="https://github.com/Sparkle-ID">Github</Link> */}
               </nav>
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-blue-400  hover:bg-blue-900/50"
                 >
-                  <Link href="/dashboard">Dashboard</Link>
+                  <Link href="#dashboard" className="inactive">Dashboard</Link>
                 </Button>
             </div>
 
@@ -133,9 +133,9 @@ export default function Home() {
                     </AlertDialogTrigger>
                     <AlertDialogContent>
                       <AlertDialogHeader>
-                        <AlertDialogTitle>Header</AlertDialogTitle>
+                        <AlertDialogTitle>Say Hi to our AI</AlertDialogTitle>
                         <AlertDialogDescription>
-                          This action cannot be undone.
+                          Converse smoothly with our AI to learn more about Sparkle ID.
                         </AlertDialogDescription>
                       </AlertDialogHeader>
                       <AlertDialogFooter>
@@ -162,7 +162,7 @@ export default function Home() {
                   variant="outline"
                   className="border-blue-400  hover:bg-blue-900/50"
                 >
-                  Documentation
+                  <Link href="https://github.com/Sparkle-ID">Github</Link>
                 </Button>
               </div>
             </div>
